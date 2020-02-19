@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Chair List </title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+
+	<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-database.js"></script>
+
+	<script type="text/javascript" src="js.js"></script>
+</head>
+<body onload="onload()">
+	<div id="main">
+		<div id="data-input" class="box">
+			<input type="input" name="first-name" id="first-name" placeholder="First Name" onfocus="inputOnFocus(this.id)" onblur="inputOnBlur(this.id, 'First Name')" ><br><br>
+			<input type="input" name="second-name" id="second-name" placeholder="Second Name" onfocus="inputOnFocus(this.id)" onblur="inputOnBlur(this.id, 'Second Name')"><br><br>
+		</div>
+
+		<button type="button" onclick="submit()" id="Submit"> Submit</button>
+
+		<!-- Add In interview Block here -->
+
+		<div id="order" class="box">
+			<p id="interviewOrder"> Interview Order </p>
+			<ol id="chairList"></ol>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+html {
+	height: 100%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	padding: 20px;
+
+}
+
+.sec {
+	font-family: 'raleway';
+
+	margin: auto;
+	align-items: center;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+button {
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
+    outline: none !important;
+
+	margin: auto;
+	width: 60%;
+	font-size: 1.5pc;
+	border-style: solid;
+	border: none;
+	background-color: rgb(245, 245, 245);
+	border-radius: 20px;
+	padding: 10px;
+	box-shadow: 5px 6px lightgrey;
+}
+
+button:active {
+	transform: translateY(4px);
+	box-shadow: 2px 1px lightgrey;
+}
+
+#interview-order {
+	text-align: center;
+	margin-top: 40px;
+	padding: 10px;
+
+	border: 1px solid;
+
+	border-radius: 20px;
+}
+
+#queue-head {
+	font-size: 1.5pc;
+}
+
+#interview-list {
+	font-size: 1pc;
+}
+
+#current-interview {
+	font-size: 2pc;
+}

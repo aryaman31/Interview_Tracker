@@ -1,0 +1,97 @@
+#main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+	margin: auto;
+}
+
+#data-input {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	padding: 20px;
+
+	display: flex;
+	flex-direction: column; 
+	justify-content: space-around;
+}
+input {
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
+    outline: none !important;
+
+	font-size: 1pc;
+	border-style: none none solid;
+	border-color: grey;
+	opacity: 0.7;
+	/*margin-bottom: 100px;
+	margin-right: auto;
+	margin-left: auto;*/
+	width: 100%;
+	padding: 5px;
+
+	text-align: center;
+}
+
+input:focus {
+	color: transparent;
+}
+
+::placeholder {
+	color: black;
+	font-size: 1pc;
+	opacity: 1;
+	height: 100%;
+	text-align: center;
+}
+
+button {
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
+    outline: none !important;
+
+	margin: auto;
+	width: 60%;
+	font-size: 1.5pc;
+	border-style: solid;
+	border: none;
+	background-color: rgb(245, 245, 245);
+	border-radius: 20px;
+	padding: 10px;
+	box-shadow: 5px 6px lightgrey;
+}
+
+button:active {
+	transform: translateY(4px);
+	box-shadow: 2px 1px lightgrey;
+}
+
+body {
+	background-color: white;
+	padding: 30px;
+	vertical-align: middle;
+
+	font-family: 'raleway';
+
+}
+
+#order {
+	text-align: center;
+	margin-top: 40px;
+	padding: 10px;
+
+	border: 1px solid;
+
+	border-radius: 20px;
+}
+
+#interviewOrder {
+	font-size: 1.5pc;
+}
+
+#chairList {
+	font-size: 1pc;
+}
+
+
+

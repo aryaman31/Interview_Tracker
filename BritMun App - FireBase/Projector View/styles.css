@@ -1,0 +1,54 @@
+#main-body {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	font-family: 'raleway';
+}
+
+#left-block {
+
+	height: 100%;
+	margin: auto;	
+	text-align: center;
+	flex: 3;
+
+	border: 2px solid;
+	border-radius: 10px;
+	margin-right: 10px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#right-block {
+	padding: 10px;
+	flex: 2;
+	border: 2px solid;
+	border-radius: 10px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+#chair-spots {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.chairs {
+	padding: 50px;
+}
+
+p {
+	font-size: 2pc;
+}
+
+#queue {
+	text-align: center;
+}
+
+#chairList {
+	font-size: 2pc;
+}
